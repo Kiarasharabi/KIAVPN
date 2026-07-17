@@ -1,11 +1,11 @@
-# pages.py  -  RVG Gateway v9.2
+# pages.py  -  KIAVPN v9.2
 # شامل: LOGIN_HTML, DASHBOARD_HTML, get_public_page_html()
 
 LOGIN_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ورود · RVG Gateway</title>
+<title>ورود · KIAVPN</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -58,7 +58,7 @@ input:focus+.ic{color:var(--accent)}
   <div class="card">
     <div class="brand">
       <div class="brand-img"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="codebox"></div>
-      <div><div class="brand-name">codebox</div><div class="brand-sub">RVG Gateway · v9.2</div></div>
+      <div><div class="brand-name">codebox</div><div class="brand-sub">KIAVPN · v9.2</div></div>
     </div>
     <h1>ورود به پنل</h1>
     <p class="sub">رمز عبور را برای دسترسی به داشبورد وارد کنید</p>
@@ -77,7 +77,7 @@ input:focus+.ic{color:var(--accent)}
       </div>
       <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> ورود به داشبورد</button>
     </form>
-    <div class="footer">کانال رسمی<a href="https://t.me/CodeBoxo" target="_blank"><i class="ti ti-brand-telegram"></i>@CodeBoxo</a></div>
+    <div class="footer">کانال رسمی<a href="https://t.me/CodeBoxo" target="_blank"><i class="ti ti-brand-telegram"></i>@kiarash1792</a></div>
   </div>
 </div>
 <script>
@@ -103,7 +103,7 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RVG Gateway · codebox</title>
+<title>KIAVPN</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -864,11 +864,11 @@ a{color:inherit;text-decoration:none}
     <div class="modal-v2-body">
       <div class="cl amber" style="margin-top:0">
         <i class="ti ti-alert-triangle"></i>
-        <span>به تازگی فردی اقدام به کپی‌برداری غیرمجاز از سورس‌کد این پروژه نموده و آن را تحت عنوان «X4G» بازنشر کرده است این اقدام، نقض آشکار حقوق مالکیت معنوی (کپی‌رایت) پروژه‌ی RVG Gateway محسوب می‌شود</span>
+        <span>به تازگی فردی اقدام به کپی‌برداری غیرمجاز از سورس‌کد این پروژه نموده و آن را تحت عنوان «KIAVPN» بازنشر کرده است این اقدام، نقض آشکار حقوق مالکیت معنوی (کپی‌رایت) پروژه‌ی  KIAVPN محسوب می‌شود</span>
       </div>
       <div class="cl" style="margin-top:10px">
         <i class="ti ti-info-circle"></i>
-        <span>از کاربران و همکاران محترم درخواست می‌شود از استفاده، انتشار یا معرفی نسخه‌ی کپی‌شده با نام «X4G» خودداری نموده و صرفاً از منبع رسمی و اصلی این پروژه — RVG Gateway · codebox — بهره‌مند شوند. هرگونه استفاده از نسخه‌ی مذکور، حقوق قانونی صاحب اثر را نقض می‌کند و پیگرد آن محفوظ است.</span>
+        <span>از کاربران و همکاران محترم درخواست می‌شود از استفاده، انتشار یا معرفی نسخه‌ی کپی‌شده با نام «KIA» خودداری نموده و صرفاً از منبع رسمی و اصلی این پروژه — KIAVPN — بهره‌مند شوند. هرگونه استفاده از نسخه‌ی مذکور، حقوق قانونی صاحب اثر را نقض می‌کند و پیگرد آن محفوظ است.</span>
       </div>
       <div class="modal-v2-footer">
         <button class="btn btn-p" style="flex:1;justify-content:center" onclick="closeModal('modal-copyright-notice')"><i class="ti ti-check"></i> متوجه شدم</button>
@@ -959,7 +959,7 @@ a{color:inherit;text-decoration:none}
 <div class="mob-top">
   <div class="ml">
     <div class="mob-logo"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="cb"></div>
-    <span class="mob-title">RVG Gateway</span>
+    <span class="mob-title">KIAVPN</span>
   </div>
   <div class="mob-right">
     <button class="theme-mob" id="theme-mob-btn" onclick="toggleTheme()"><i class="ti ti-sun" id="theme-mob-icon"></i></button>
@@ -970,8 +970,8 @@ a{color:inherit;text-decoration:none}
 <aside class="sidebar" id="sb">
   <button class="sb-close" id="close-sb"><i class="ti ti-x"></i></button>
   <div class="logo">
-    <div class="logo-img"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="cb"></div>
-    <div><div class="logo-name">codebox</div><div class="logo-sub">RVG Gateway · v9.2</div></div>
+    <div class="logo-img"><img src=""></div>
+    <div><div class="logo-name">codebox</div><div class="logo-sub">KIAVPN · v9.2</div></div>
   </div>
   <div class="nav-wrap">
     <div class="nav-sec">پنل</div>
@@ -1050,7 +1050,7 @@ a{color:inherit;text-decoration:none}
     </div>
   </div>
   <div class="dash-footer">
-    <span class="df-text">codebox RVG Gateway v9.2 · Railway · 2025</span>
+    <span class="df-text">KIAVPN v9.2 · Railway · 2025</span>
     <a class="df-link" href="https://t.me/CodeBoxo" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/CodeBoxo</a>
   </div>
 </section>
@@ -1383,7 +1383,7 @@ a{color:inherit;text-decoration:none}
     <div class="sup-head">
       <div class="sup-head-icon"><i class="ti ti-headset"></i></div>
       <div class="sup-head-text">
-        <div class="sup-head-title">پشتیبانی RVG</div>
+        <div class="sup-head-title">پشتیبانی KIAVPN</div>
         <div class="sup-head-sub"><span class="sdot"></span> معمولاً در کمتر از چند ساعت پاسخ داده می‌شود</div>
       </div>
     </div>
@@ -1456,13 +1456,13 @@ a{color:inherit;text-decoration:none}
 </section>
 </main>
 <script>
-let isDark=localStorage.getItem('rvg-theme')!=='light';
+let isDark=localStorage.getItem('KIAVPN-theme')!=='light';
 let updateAvailable = false;
 let updateVersion = '';
 let updateDescription = '';
 
 function dismissUpdate() {
-  sessionStorage.setItem('rvg-update-dismissed', 'true');
+  sessionStorage.setItem('KIAVPN-update-dismissed', 'true');
   closeModal('modal-update');
 }
 
@@ -1477,7 +1477,7 @@ function applyTheme(dark){
   document.getElementById('theme-label').textContent=label;
   const mobI=document.getElementById('theme-mob-icon');if(mobI)mobI.className='ti '+icon;
 }
-function toggleTheme(){isDark=!isDark;localStorage.setItem('rvg-theme',isDark?'dark':'light');applyTheme(isDark)}
+function toggleTheme(){isDark=!isDark;localStorage.setItem('KIAVPN-theme',isDark?'dark':'light');applyTheme(isDark)}
 applyTheme(isDark);
 function toast(msg,type=''){
   const t=document.getElementById('toast');
@@ -2071,7 +2071,7 @@ const LABEL_MAP={ad:'تبلیغ',news:'خبر',warning:'هشدار',urgent:'فو
 async function loadAnnouncements(){
   try{
     const r=await authF('/api/announcements'),d=await r.json();
-    const seen=JSON.parse(localStorage.getItem('rvg-seen-ann')||'[]');
+    const seen=JSON.parse(localStorage.getItem('KIA-seen-ann')||'[]');
     const list=(d.announcements||[]).filter(a=>!seen.includes(a.id));
     document.getElementById('ann-banner-wrap').innerHTML=list.map(a=>`
       <div class="ann-card ${a.type}" id="ann-${a.id}">
@@ -2387,7 +2387,7 @@ def get_public_page_html(uuid_key: str) -> str:
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>RVG Sub · codebox</title>
+<title>KIAVPN Sub · </title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -2579,7 +2579,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div class="top">
     <div class="brand">
       <div class="brand-img"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="cb"></div>
-      <div><div class="brand-name">codebox</div><div class="brand-sub">RVG Gateway · v9.2</div></div>
+      <div><div class="brand-name">codebox</div><div class="brand-sub">KIAVPN · v9.2</div></div>
     </div>
     <div class="top-actions">
       <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="تغییر تم"><i class="ti ti-sun" id="theme-icon"></i></button>
@@ -2589,7 +2589,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div id="root">
     <div class="empty-state"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i>در حال بارگذاری...</div>
   </div>
-  <div class="footer">کانال رسمی: <a href="https://t.me/CodeBoxo" target="_blank">@CodeBoxo</a> · RVG Gateway v9.2</div>
+  <div class="footer">کانال رسمی: <a href="https://t.me/CodeBoxo" target="_blank">@CodeBoxo</a> · KIAVPN v9.2</div>
 </div>
 <script>
 const UUID_KEY='{uuid_key}';
